@@ -364,10 +364,11 @@ span a:hover {
 
     nav .logo img {
         width: 100%;
+        justify-content: center;
     }
 
     nav .list {
-        width: 70%;
+        width: 75%;
         text-wrap: nowrap;
         display: flex;
         padding: 0;
@@ -378,10 +379,10 @@ span a:hover {
 
     nav .list li a {
         font-size: 10px;
-        font-weight: 800;
+        font-weight: 700;
         text-align: center;
         text-wrap: nowrap;
-        gap: 10px;
+        gap: 8px;
         width: 100%;
         padding: 0px 3px;
     }
@@ -395,8 +396,9 @@ span a:hover {
 
     .contact a {
         padding: 0px 3px;
-        font-size: 15px;
+        font-size: 13px;
         text-wrap: wrap;
+
     }
 
     main {
@@ -445,6 +447,7 @@ span a:hover {
     .us {
         width: 100%;
         padding: 21px 0px;
+        height: 300px;
     }
     
     .us h1 {
