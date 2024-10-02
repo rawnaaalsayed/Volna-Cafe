@@ -447,7 +447,7 @@ span a:hover {
     .us {
         width: 100%;
         padding: 21px 0px;
-        height: 300px;
+        height: 1000px;
     }
     
     .us h1 {
@@ -497,9 +497,10 @@ span a:hover {
         width: 100%;
         margin: 10px 32px;
         margin-bottom: 0px;
-        padding-right: 50px;
-        padding-top: 250px;
+        
+        padding: 200px 0px;
         justify-content: center;
+        padding-right: 50px;
     }
     
     .us .details p {
