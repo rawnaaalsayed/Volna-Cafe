@@ -351,6 +351,16 @@ span a:hover {
 }
 
 @media (min-width:0px) and (max-width:600px) {
+
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+
     nav {
         width: 100%;
         padding: 0px 8px;
@@ -483,7 +493,6 @@ span a:hover {
         width: 320px;
         box-shadow: #4a422f 0px 1px 40px;
         border-radius: 18px;
-        margin: ;
     }
     
     .us .sec {
